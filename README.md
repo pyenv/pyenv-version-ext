@@ -11,7 +11,7 @@ versions.
 Installing pyenv-version-ext as a pyenv plugin will give you access to the
 `pyenv push` and `pyenv pop` commands.
 
-    $ git clone git://github.com/yyuu/pyenv-version-ext.git ~/.pyenv/plugins/pyenv-version-ext
+    $ git clone git://github.com/yyuu/pyenv-version-ext.git $(pyenv root)/plugins/pyenv-version-ext
 
 This will install the latest development version of pyenv-version-ext into
 the `~/.pyenv/plugins/pyenv-version-ext` directory. From that directory, you
